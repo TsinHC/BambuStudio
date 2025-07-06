@@ -13,8 +13,8 @@ set (_openvdb_vdbprint ON)
     #set (_openvdb_vdbprint OFF)
 #endif ()
 bambustudio_add_cmake_project(OpenVDB    
-    URL https://github.com/tamasmeszaros/openvdb/archive/a68fd58d0e2b85f01adeb8b13d7555183ab10aa5.zip # 8.2 patched
-    URL_HASH SHA256=f353e7b99bd0cbfc27ac9082de51acf32a8bc0b3e21ff9661ecca6f205ec1d81
+    URL https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v10.0.0.zip # 8.2 patched
+    #URL_HASH SHA256=f353e7b99bd0cbfc27ac9082de51acf32a8bc0b3e21ff9661ecca6f205ec1d81
     # URL https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v10.0.1.zip
     # URL_HASH SHA256=48C2CFA9853B58FA86282DF1F83F0E99D07858CC03EB2BA8227DC447A830100A
     DEPENDS dep_TBB dep_Blosc dep_OpenEXR ${BOOST_PKG}
